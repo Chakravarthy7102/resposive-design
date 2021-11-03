@@ -259,6 +259,17 @@ nav {
   .hero.container {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
+    .left-col {
+      margin: 3em 3em 0 5em;
+      h1 {
+        font-size: 3em;
+        width: 90%;
+      }
+    }
+  }
+  .hero-img {
+    width: 30%;
+    margin-right: 8em;
   }
 }
